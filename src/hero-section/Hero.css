@@ -1,0 +1,26 @@
+
+.Hero video {
+    width: 99vw;
+    z-index: -1;
+    position: absolute;
+}
+
+.overlay {
+    background-color: rgba(32, 178, 171, 0);
+    width: 100%;
+    aspect-ratio: 4/1;
+    position: relative;
+    padding-top: 0.4%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.overlay:hover h2 {
+    color: blueviolet;
+}
+
+.Hero h2 {
+    color: black;
+    padding: 0 30% 0 3rem;
+
+}

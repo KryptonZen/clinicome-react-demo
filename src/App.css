@@ -1,0 +1,18 @@
+@font-face {
+	font-family: nunito;
+	src: url(./assets/Nunito-Regular.ttf);
+  font-weight: normal;
+	font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: nunito, Arial, Helvetica, sans-serif;
+
+}
+
+/* body {
+  background-color: lightblue;
+} */
+

@@ -1,0 +1,80 @@
+
+.Sections div {
+    box-sizing: border-box;
+}
+
+.ContentArea1 {
+    background-color: aliceblue;
+    height: 400px;
+}
+.ContentArea1:hover h2 {
+    font-size: 3rem;
+    transition-duration: 0.5s;
+}
+.ContentArea1:hover {
+    transition-duration: 0.5s;
+    border: 14px rgb(196, 226, 253) solid;
+}
+
+
+.ContentArea2 {
+    background-color: #D5EAEC;
+    height: 400px;
+}
+.ContentArea2:hover h2 {
+    font-size: 3rem;
+    transition-duration: 0.5s;
+}
+.ContentArea2:hover {
+    transition-duration: 0.5s;
+    border: 14px lightcoral solid;
+}
+.ContentArea2:hover .AppAnimation {
+    font-size: 1.3rem;
+}
+.ContentArea2 .AppAnimation {
+    background-color: rgba(32, 178, 171, 0.704);
+    height: 15rem;
+    width: 35%;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 1.2rem;
+    padding-top: 0.7rem;
+    transition-duration: 0.15s;
+}
+
+.QandA {
+    background-color: #0C4851;
+    color: white;
+    height: 350px;
+}
+.QandA:hover h2 {
+    font-size: 2.5rem;
+    transition-duration: 0.5s;
+    transform: translate(0, 5rem);
+}
+.QandA:hover {
+    transition-duration: 0.5s;
+    border: 10px wheat dotted;
+}
+.Footer {
+    background-color: #161A21;
+    color: white;
+    height: 250px;
+}
+.Footer:hover h2 {
+    font-size: 2.5rem;
+    transition-duration: 0.5s;
+    /* transform: translate(0, 5rem); */
+}
+.Footer:hover {
+    transition-duration: 0.5s;
+    border: 10px wheat dotted;
+}
+
+.Sections h2 {
+    text-align: center;
+    padding-top: 1rem;
+    transition-duration: 0.25s;
+}

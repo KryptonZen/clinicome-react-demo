@@ -1,0 +1,162 @@
+.Navbar {
+    background-color: white;
+    height: 6rem;
+    min-width: 1000px;
+    box-shadow: 0 0.15rem 0.5rem #99999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.Navbar a, .Navbar button {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition-duration: 0.1s;
+    overflow: hidden;
+}
+.Navbar a:hover, .Navbar button:hover {
+    color: #4e429a;
+}
+
+.NavLogo {
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+    height: 4rem;
+}
+
+@media (max-width: 1080px) {
+    .NavLogo {height: 3rem;}
+}
+
+@media (max-width: 1007px) {
+    .NavLogo {height: 3rem; padding-left: 1rem;}
+}
+
+.NavOptions {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.NavOptions a, .NavOptions button {
+    padding: 0.5rem;
+    overflow: hidden;
+}
+.NavOptions a:hover, .NavOptions button:hover {
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+.NavOptions button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.NavOptions button:active {
+    background-color: rgb(217, 236, 252);
+}
+
+.TestsOffered i {
+    color: #1BB4C5
+}
+
+.NavOptions .dropDown:hover .dropDownContent {
+    display: block;
+}
+.NavOptions .dropDown .dropDownContent {
+    display: none;
+    background-color: white;
+    position: absolute;
+    border-radius: 0.2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(91, 91, 91, 0.4);
+    /* transform: translateY(-0.5rem); */
+    z-index: 100;
+}
+.NavOptions .dropDown .dropDownContent a {
+    display: block;
+}
+
+.NavFunctions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 19.7rem;
+    margin-right: 0.7rem;
+}
+
+.NavSeparator {
+    width: 1px;
+    height: 5rem;
+    background-color: #17ABCA;
+}
+
+.NavFunctions a, .NavFunctions button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    padding: 0.5rem;
+}
+.NavFunctions a:hover, .NavFunctions button:hover {
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    
+}
+
+.NavFunctions i {
+    font-size: 2rem;
+    color: #1BB4C5
+}
+
+.NavFunctions button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.NavFunctions button:active {
+    background-color: rgb(217, 236, 252);
+}
+
+.NavFunctions .dropDown:hover .dropDownContent {
+    display: flex;
+}
+.NavFunctions .dropDown .dropDownContent {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    transform: translateX(-9rem);
+    border-radius: 0.2rem;
+    box-shadow: -0.5rem 0.5rem 0.5rem rgba(91, 91, 91, 0.4);
+    padding: 1rem;
+    z-index: 100;
+
+}
+
+.NavFunctions .dropDown .dropDownContent input {
+    height: 1.7rem;
+    width: 15rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 2px #17ABCA solid;
+    border-radius: 0.2rem;
+    padding-left: 0.5rem;
+}
+.NavFunctions .dropDown .dropDownContent button {
+    margin-top: 0.5rem;
+    background-color: #645cff;
+    color: white;
+    border-radius: 0.3rem;
+}
