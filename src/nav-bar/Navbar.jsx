@@ -2,8 +2,8 @@ import './Navbar.css'
 import logoSvg from "../assets/E-Clinicome Logo-Light.svg"
 
 
-const yet2do = ()=> alert("Needs to be worked on!")
-const app2do = ()=> alert("Appointment App not developed yet!")
+const Yet2do = ()=> alert("Needs to be worked on!")
+const App2do = ()=> alert("Appointment App not developed yet!")
 
 function Navbar() {
     return (
@@ -39,17 +39,17 @@ const TestsOffered = () => {
                 Tests Offered <i className="fa-solid fa-caret-down"></i>
             </button>
             <div className='dropDownContent'>
-                <a href="" onClick={yet2do}> Test Placeholder #1 </a>
-                <a href="" onClick={yet2do}> Test Placeholder #2 </a>
-                <a href="" onClick={yet2do}> Test Placeholder #3 </a>
-                <a href="" onClick={yet2do}> Test Placeholder #4 </a>
+                <a href="" onClick={Yet2do}> Test Placeholder #1 </a>
+                <a href="" onClick={Yet2do}> Test Placeholder #2 </a>
+                <a href="" onClick={Yet2do}> Test Placeholder #3 </a>
+                <a href="" onClick={Yet2do}> Test Placeholder #4 </a>
             </div>
         </div>
     )
 }
-const AntenatalGenetics = () => <a href="" onClick={yet2do}> <div className='AntenatalGenetics'>Antenatal Genetics</div> </a>
-const CancerGenetics = () => <a href="" onClick={yet2do}> <div className='CancerGenetics'>Cancer Genetics</div> </a>
-const AboutUs = () => <a href="" onClick={yet2do}> <div className='AboutUs'>About Us</div> </a>
+const AntenatalGenetics = () => <a href="" onClick={Yet2do}> <div className='AntenatalGenetics'>Antenatal Genetics</div> </a>
+const CancerGenetics = () => <a href="" onClick={Yet2do}> <div className='CancerGenetics'>Cancer Genetics</div> </a>
+const AboutUs = () => <a href="" onClick={Yet2do}> <div className='AboutUs'>About Us</div> </a>
 
 function NavFunctions() {
     return (
@@ -64,7 +64,7 @@ function NavFunctions() {
 
 const NavSeparator = () => <div className='NavSeparator'> </div>
 
-const Appointment = () => <a href="" onClick={app2do}> <i className="fa-regular fa-calendar-days"></i> <div className='Appointment'>Schedule Appointment</div> </a>
+const Appointment = () => <a href="" onClick={App2do}> <i className="fa-regular fa-calendar-days"></i> <div className='Appointment'>Schedule Appointment</div> </a>
 const Signin = () => {
     return (
         <div className='dropDown'>
@@ -76,7 +76,7 @@ const Signin = () => {
             <div className='dropDownContent'>
                 <input type="text" placeholder="Enter Username"></input>
                 <input type="password" placeholder="Enter Password"></input>
-                <button onClick={yet2do}>LOGIN</button>
+                <button onClick={Yet2do}>LOGIN</button>
             </div>
         </div>
     )
